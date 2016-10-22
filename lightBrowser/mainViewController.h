@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  mainViewController.h
 //  lightBrowser
 //
 //  Created by Cheney on 12/27/15.
@@ -8,12 +8,11 @@
 
 #import <UIKit/UIKit.h>
 #import "ViewController.h"
-#import "mainViewController.h"
+#import "bookmarkListViewController.h"
+#import <QuartzCore/QuartzCore.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
 
+@interface mainViewController : UIViewController
 
 @end
-

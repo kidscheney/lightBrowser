@@ -7,9 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "mainViewController.h"
+#import "AddBookmarkViewController.h"
 
 @interface ViewController : UIViewController
 
+- (ViewController*) initURL :(NSString*) url;
 
 @end
 
